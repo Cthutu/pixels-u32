@@ -1,0 +1,18 @@
+[package]
+name = "pixels-u32"
+version = "0.1.0"
+edition = "2021"
+description = "Adds an extension to Pixels to access it as a u32 slice."
+license = "MIT"
+repository = "https://github.com/cthutu/pixels-u32"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytemuck = "1.7.2"
+pixels = "0.7.0"
+
+[dev-dependencies]
+anyhow = "1.0.44"
+winit = "0.25.0"
